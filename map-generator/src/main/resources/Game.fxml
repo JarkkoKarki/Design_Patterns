@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jkk.controller.GameController">
+   <top>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <buttons>
+            <Button fx:id="b1" mnemonicParsing="false" onAction="#generateCityMap" text="Generate City Map" />
+            <Button fx:id="b2" mnemonicParsing="false" onAction="#generateWildernessMap" text="Generate Wilderness Map" />
+        </buttons>
+      </ButtonBar>
+   </top>
+   <center>
+      <TextArea fx:id="mapDisplay" editable="false" prefHeight="300.0" prefWidth="500.0" style="-fx-font-family: 'Courier New'; -fx-font-size: 14px;" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Map Generator" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+   </bottom>
+
+</BorderPane>
