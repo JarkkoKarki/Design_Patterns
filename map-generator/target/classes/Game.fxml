@@ -11,8 +11,8 @@
    <top>
       <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <buttons>
-            <Button fx:id="b1" mnemonicParsing="false" onAction="#generateCityMap" text="Generate City Map" />
-            <Button fx:id="b2" mnemonicParsing="false" onAction="#generateWildernessMap" text="Generate Wilderness Map" />
+            <Button fx:id="b1" mnemonicParsing="false" onAction="#generateCityMap" text="City Map" />
+            <Button fx:id="b2" mnemonicParsing="false" onAction="#generateWildernessMap" text="Wilderness Map" />
         </buttons>
       </ButtonBar>
    </top>

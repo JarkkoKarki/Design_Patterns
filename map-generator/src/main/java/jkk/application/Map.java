@@ -45,7 +45,7 @@ public abstract class Map {
     
     public String getMapAsString() {
         StringBuilder mapString = new StringBuilder();
-        mapString.append("Generated Map:\n\n");
+        mapString.append("Map:\n\n");
         
         for (int i = 0; i < MAP_HEIGHT; i++) {
             for (int j = 0; j < MAP_WIDTH; j++) {
