@@ -8,6 +8,6 @@ public class WaterTile extends Tile {
     
     @Override
     public String action() {
-        return "Swimming across water";
+        return null;
     }
 }
